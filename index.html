@@ -84,17 +84,18 @@
 					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
 						data-scrollax-parent="true">
 						<div class="one-third js-fullheight order-md-last img"
-							style="background-image:url(images/bg1.jpeg);">
+							style="background-image:url(images/ppp.jpeg);">
 							<div class="overlay"></div>
 						</div>
 						<div class="one-forth d-flex align-items-center ftco-animate"
 							data-scrollax="properties: { translateY: '70%' }">
 							<div class="text">
-								<h1 class="mb-4 mt-3"><span>Namaste</span></h1>
-								<h1 class="mb-4 mt-3"><span>Jojolapa</span></h1>
-								<h1 class="mb-4 mt-3"><span>Ni hao</span></h1>
-								<h1 class="mb-4 mt-3"><span>Hola</span></h1>
-								<h1 class="mb-4 mt-3"><span>Bonjour</span></h1>
+								<h1 class="mb-4 mt-3"><span id="typed-text"></span></h1>
+								<!--<h1 class="mb-4 mt-3"><span id="typed-text">Namaste</span></h1>
+								<h1 class="mb-4 mt-3"><span id="typed-text">Jojolapa</span></h1>
+								<h1 class="mb-4 mt-3"><span id="typed-text">Ni hao</span></h1>
+								<h1 class="mb-4 mt-3"><span id="typed-text">Hola</span></h1>
+								<h1 class="mb-4 mt-3"><span id="typed-text">Bonjour</span></h1>-->
 							</div>
 						</div>
 					</div>
@@ -143,8 +144,7 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Resume</h1>
 					<h2 class="mb-4">Resume</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It
-						is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<p> </p>
 				</div>
 			</div>
 			<div class="row">
@@ -238,7 +238,7 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Skills</h1>
 					<h2 class="mb-4">My Skills</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<p> </p>
 				</div>
 			</div>
 			<div class="row">
@@ -319,7 +319,7 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
 					<h2 class="mb-4">Our Projects</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<p> </p>
 				</div>
 			</div>
 			<div class="row">
@@ -499,7 +499,7 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
 					<h2 class="mb-4">Contact Me</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<p> </p>
 				</div>
 			</div>
 
@@ -543,8 +543,7 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">About</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
+						<p> </p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 							<li class="ftco-animate"><a href="https://x.com/bijeshrestha18"><span
 										class="icon-twitter"></span></a></li>
@@ -583,9 +582,9 @@
 							<ul>
 								<li><span class="icon icon-map-marker"></span><span class="text">Kathmandu, Nepal</span>
 								</li>
-								<li><a href=""><span class="icon icon-phone"></span><span
+								<li><a href="tel://+9779840216942"><span class="icon icon-phone"></span><span
 											class="text">+9779840216942</span></a></li>
-								<li><a href=""><span class="icon icon-envelope"></span><span
+								<li><a href="mailto:bijeshshrestha165@gmail.com"><span class="icon icon-envelope"></span><span
 											class="text">bijeshshrestha165@gmail.com</span></a></li>
 							</ul>
 						</div>
@@ -634,6 +633,19 @@
 	<!-- Include Owl Carousel JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<!-- Owl Carousel Initialization -->
+
+	<!-- Typing animation -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var typed = new Typed('#typed-text', {
+				strings: ['Namaste', 'Jojolapa', 'Ni Hao', 'Hola'],
+				typeSpeed: 100, // Typing speed in milliseconds
+				loop: true // Loop the animation
+			});
+		});
+	</script>
 
 
 
